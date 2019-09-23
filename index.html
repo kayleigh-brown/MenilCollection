@@ -19,7 +19,7 @@
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
   <!-- Custom CSS -->
-  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <link href="css/stylish-portfolio.css" rel="stylesheet">
 
 </head>
 
@@ -32,22 +32,22 @@
   <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
       <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#page-top">Home</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">About</a>
+        <a class="js-scroll-trigger" href="#page-top">The Menil Collection</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#mission">Mission</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#about">About</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#design">Design</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#thoughts">Thoughts</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#analysis">Analysis</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#location">Location</a>
@@ -62,10 +62,25 @@
       <h3 class="mb-5">
         <em>Architecture and Society Scavenger Hunt</em>
       </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+      <!-- <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a> -->
     </div>
     <div class="overlay"></div>
   </header>
+
+
+  <!-- Mission -->
+  <section class="content-section bg-light" id="mission">
+    <div class="container text-center">
+      <img class="mb-5" src="gif/menil-drawing.gif" loop=1>
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>Making Art Accessible</h2>
+          <p class="lead mb-5">The Menil Collection aims to share with the world and make art accessible to everyone. The founder's vision was to help foster personal connections with artwork that are otherwise hard to come by<sup>1</sup>. To help achieve this, entrance to the Menil Collection is entirely free.</p>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" href="https://www.menil.org/about">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
     <!-- About -->
     <!-- TODO: update icons -->
@@ -83,48 +98,46 @@
           <h4>
             <strong>Architect</strong>
           </h4>
-          <p class="text-faded mb-0">Renzo Piano <br>
-          The Menil Collection was his first building in the United States. Before this, he was a celebrated architect in Italy (?)[]</p>
+          <p class="text-faded mb-0">Renzo Piano<sup>1</sup> <br>
+          The Menil Collection was his first building in the United States<sup>2</sup></p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-like"></i>
+            <i class="icon-calendar"></i>
           </span>
           <h4>
             <strong>Date of Construction</strong>
           </h4>
-          <p class="text-faded mb-0">4<sup>th</sup> June 1987<br>
-            The Menil Collection has since been nominated for <25 year award here>[]</p>
+          <p class="text-faded mb-0">4<sup>th</sup> June 1987<sup>1</sup><br>
+            The Menil Collection has since been nominated for the AIA Twenty-Five Year Award<sup>3</sup></p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="icon-user-female"></i>
+          </span>
+          <h4>
+            <strong>Founder</strong>
+          </h4>
+          <p class="text-faded mb-0">Dominique de Menil<sup>1</sup><br>
+          In remembrance of her late husband, John de Menil</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="icon-people"></i>
+          </span>
+          <h4>
+            <strong>Featured Artists</strong>
+          </h4>
+          <p class="text-faded mb-0">Cy Twombly and Dan Flavin<sup>1</sup><br>
+            Rotating collections (African Art, Surrealism, Modern, Byzantine, Medeival)
+          </p>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- Mission -->
-  <section class="content-section bg-light" id="mission">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h2>Making Art Accessible</h2>
-          <p class="lead mb-5">The Menil Collection aims to share with the world and make art accessible to everyone[]. The founder's vision was to help foster personal connections with artwork that are otherwise hard to come by. To help achieve this, entrance to the Menil Collection is entirely free.</p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="https://www.menil.org/about">Learn More</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Callout -->
-  <!-- <section class="callout">
-    <div class="container text-center">
-      <h2 class="mx-auto mb-5">Welcome to
-        <em>your</em>
-        next website!</h2>
-      <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
-    </div>
-  </section> -->
 
   <!-- Plans and Images -->
-  <section class="content-section" id="design">
+  <section class="content-section bg-secondary" id="design">
     <div class="container">
 
       <div class="content-section-heading text-center">
@@ -136,7 +149,7 @@
       </div>
 
       <div class="content-section-heading text-center">
-        <h2 class="mb-5">Building Program</h2>
+        <h2 class="mb-5">Building Program<sup>1</sup></h2>
       </div>
       <div class="container text-center">
         <p class="lead mb-5">
@@ -146,115 +159,228 @@
             Inclusion of as much natural light as possible<br>
             Artwork needs to be preserved and protected<br>
             People should be able to move freely between galleries<br>
-            Should "look small on the outside, but feel big on the inside" []<br>
+            Should "look small on the outside, but feel big on the inside"<sup>2</sup><br>
         </p>
       </div>
 
       <div class="content-section-heading text-center">
-        <h2 class="mb-5">Plans and Sections</h2>
+        <h2 class="mb-5">Plans and Sections<sup>4</sup></h2>
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6">
           <a class="portfolio-item" href="img/Menil_Collection_Plan.jpg">
-            <!-- <span class="caption">
-              <span class="caption-content">
-                <p class="mb-0"><b>Floor Plan</b></p>
-              </span>
-            </span> -->
             <img class="img-fluid" src="img/Menil_Collection_Plan.jpg" alt="Floor Plan of the Menil Collection, no labels">
           </a>
         </div>
         <div class="col-lg-6">
-          <a class="portfolio-item" href="img/Mark-Flood_Menil-Collection-Floorplan-800x352.jpg">
-            <!-- <span class="caption">
-              <span class="caption-content">
-                <p class="mb-0"><b>Labeled Floor Plan</b></p>
-              </span>
-            </span> -->
-            <img class="img-fluid" src="img/Mark-Flood_Menil-Collection-Floorplan-800x352.jpg" alt="Labeled Floor Plan of the Menil Collection">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item mb-5" href="img/Menil_Collection_Sect_A.jpg">
-            <!-- <span class="caption">
-              <span class="caption-content">
-                <p class="mb-0"><b>Section</b></p>
-              </span>
-            </span> -->
+          <a class="portfolio-item" href="img/Menil_Collection_Sect_A.jpg">
             <img class="img-fluid" src="img/Menil_Collection_Sect_A.jpg" alt="Section of Menil Collection">
           </a>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section id = "thoughts" class="projects-section bg-primary text-black">
+    <div class="content-section-heading text-center">
+      <h2 class="mb-5 text-white">Images</h2>
+    </div>
+    <div class = "container">
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/Menil-02.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">Entrance</h4>
+                <p class="mb-0 text-white-50">The entrance to the museum is extremely symmetrical, and from afar appears smaller than it truly is. The building hugs the horizon line in a non-assuming fashion, and tress appear to be growing through the building. These cement the placement of he biulding as one with the community. The materials used for this building were mainly cypress wood paneling, steel beams, concrete leaves, glass, and pine wood flooring.<sup>5</sup></p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/Menil-03.jpg" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">Scale</h4>
+                <p class="mb-0 text-white-50">The true size of the building doesn't dawn on you until you are standing right inside the entrance. As you walk up the sidewalk to the building it appears to grow very slowly, until you reach the first awning. Then, the height of the ceilings hits you.</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/Menil-04.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">The Leaves</h4>
+                <p class="mb-0 text-white-50">The infamous ceiling leaves of the Menil Collection serve to protect the building and the artwork from the harsh Texas sun, while still providing maximum amounts of diffused light into the museum.</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/Menil-05.jpg" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">Main Entrance</h4>
+                <p class="mb-0 text-white-50">The main entrance to the museum envelopes you, drawing you in. Perfectly symmetric with large ceilings, the entrance awes you as you look through the glass to see your first glimpses of the art awaiting you.</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Analysis -->
+  <section class="content-section bg-secondary" id="analysis">
+    <div class="container">
 
       <div class="content-section-heading text-center">
-        <h2 class="mb-5">Images</h2>
+        <h3 class="text-secondary mb-0">Analysis</h3>
+        <h2 class="mb-5">Video/Film</h2>
       </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Strawberries</h2>
-                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Workspace</h2>
-                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-          </a>
-        </div>
+      <div class="container text-center">
+        <p class="lead mb-5">This short video<sup>2</sup> on the Menil Collection discusses the process of creating the building, as well as the reasons for its creation. Interestingly, this video ties together the Menil House ad the Menil Collection, and the architecture is quite similar. However, in my experience of the Menil Collection, it does not feel like a home. Homes have souls and life, while the only soul from the Menil Collection comes from the artwork on its walls. The building itself feels like an echo chamber for the spirit of the art it hosts, rather than a presence of its own.</p>
       </div>
+
+      <div class="content-section-heading text-center">
+        <h2 class="mb-5">Websites</h2>
+        <h4 class="mb-5">The Menil Collection</h4>
+        <div class="container text-center">
+        <p class="lead mb-5">The article I found<sup>3</sup> discusses features of the Menil Collection to describe why it was chosen to win the AIA Twenty-Five Year Award. Through this article I learned that the ‘leaves’ of the ceiling were designed to allow maximum natural light into the museum without damaging the artwork, and these were created specifically for the building via complex solar calculations. The museum itself has 300 of these leaves.</p>
+        <p class="lead mb-5">For the most part I agree with the author’s analysis of the building, but the author states that one of the primary objectives of the building is to blend in with nature. I disagree, and believe that the building is designed instead to seamlessly blend with the community, and that it is the community which attempts to blend in with nature. I believe the addition of natural light is included to allow the public to feel that the building and the community are one and the same, that one has not entered into a separate space. The goal of the museum is to place artwork into life and into the community, not to disrupt from that. Were the community to be heavily industrial, the museum would reflect that.[]</p>
+      </div>
+        <h4 class="mb-5">Renzo Piano</h4>
+        <p class = "lead mb-5">This article<sup>6</sup> discusses Rezo Piano and his work as a 'Spotlight' piece. Through this I learned that Renzo Piano worked for Louis Kahn for 5 years, and won a contest for the design of the Centre Pompidou in France when he was 34, thus launching his own independent career. He is one of the largest museum architects in the world and is widely celebrated for his light buildings as opposed to the more traditional museum styles. He has been compared to the likes of da Vinci and Michaelangelo.</p>
+        <p class = "lead mb-5"> Renzo Piano is quoted as saying, “I think it ['style'] is a trap. But what I don’t hate is 'intelligence' or 'coherence.' Because coherence is not about shape, it is about something stronger, more humanistic, more poetic even.” Piano does not believe he has a single, cohesive style between his various buildings. He tries to vary his buildings according to what each building needs to be. While many analysts of Piano's buildings like to discuss Piano's style, Piano himself does not believe he has a specific architectoral style.
+
+      </div>
+
+      <div class="content-section-heading text-center">
+        <h2 class="mb-5">Print Sources</h2>
+      </div>
+      <div class="container text-center">
+        <p class="lead mb-5"></p>
+      </div>
+
     </div>
   </section>
 
   <!-- Thoughts -->
-  <section id = "thoughts" class="content-section bg-primary text-white">
-    <div class="container text-center">
-      <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-      <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-      <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
+  <section id = "thoughts" class="projects-section bg-light">
+    <div class="content-section-heading text-center">
+      <h2 class="mb-5">Impressions</h2>
+    </div>
+
+    <div class = "container">
+      <!-- My Impressions -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/Menil-07.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-black">My Impressions</h4>
+                <p class="mb-0 text-black-50">The Menil Collection radiates a sense of peace upon entering. The glass wall upon entering separates you from nature and simultaneously makes you feel closer to the community. The main spaces of the building are vast, open, and bathed in natural light. The white walls and dark floors cause your eyes to be immediately drawn to the artwork, and the shifting natural light throughout the day means a gallery can look different ten minutes after you view it. The diffused light from the ceiling at times arcs down the white walls, making it feel as though the light is directly pointing at the exhibitions. Some exhibits are surrounded by glass walls that overlook small jungles, giving the exhibitions a feeling closer to nature and more primitive. The center rooms are without natural light and painted a dark blue, allowing the eye to be drawn only to the pieces of art illuminated by soft spotlights. The building appears relatively small until you are standing directly in front of it, at which point the building scales well above your head. The inside of the building with its open floor plans and high ceilings feels very large, giving you the sense of being surrounded by something grandeouse and important. The building itself does not detract from the artwork. The creaking floors remind you that you are a part of the environment, that you are actively witnessing art. It serves as a grounding platform when the rest of the exhibition is silent. The cubistic rooms, leading into other cubistic rooms, guide you through the galleries in an unassuming fashion. The diffusion of light appears to make the ceiling glow, raising all of the artwork under its awning to an ethereal status. The park outside the collection allows families to play together, allowing the artwork to also be humbled, and become part of the community.</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Linda's Impressions -->
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/Menil-02.jpg" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-black">Visitor Impressions</h4>
+                <p class="mb-0 text-black-50">“I was surprised it had such a modernistic look for being built in the 1980s. I was not expecting that. It was also so unique with the louvered ceiling to redirect the light. I don’t think there’s another museum that does that. It’s fantastic. Other than the ceiling it feels really plain. It doesn’t make the art take a backseat. I thought it was fascinating that it was in the middle of a very modest neighborhood with really small homes” – Linda Foster</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interior -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/Menil-10.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-black">The Interior</h4>
+                <p class="mb-0 text-black-50">The ceiling leaves provide a stark contrast between natural light and the exhibition lights, cool vs warm. During the day the contrast appears the most stark, but as the sun sets the outside light more closely resembles the exhibitions. This contrast highlights the time of day within the building and makes the people in the building more aware of what's happening outside</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Location -->
-  <section id="location" class="map">
+  <section id = "location" class="upper-section bg-secondary">
+    <div class="content-section-heading text-center">
+      <h2>Location</h2>
+    </div>
+  </section>
+  <section class="map">
     <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.3927479444837!2d-95.40069868489248!3d29.737344639969223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf7f64db3727%3A0x8cc7c42a58901fbb!2sThe%20Menil%20Collection!5e0!3m2!1sen!2sus!4v1569124876348!5m2!1sen!2sus"></iframe>
     <br />
   </section>
-  <section class="content-section bg-light">
+  <section class="small-section bg-secondary">
     <div class="container text-center">
-      <p class  = "lead mb-5">Located in the Museum District of Houston, The Menil Collection finds itself in the middle of a neighborhood. The collection faces the public park and, in a way, is the public park. This location allows the artwork in the collection to become a part of the community, thus fulfilling the vision of the founders to include more artwork in everyday lives. The expansions of the main collection, the Cy Twombly Gallery, the Writing Center, and the bookstore, all exist as separate buildings, integrating the art collection even further into the neighborhood.</p>
+      <p class  = "lead">Located in the Museum District of Houston, The Menil Collection finds itself in the middle of a neighborhood. The collection faces the public park and, in a way, is the public park. This location allows the artwork in the collection to become a part of the community, thus fulfilling the vision of the founders to include more artwork in everyday lives. The expansions of the main collection, the Cy Twombly Gallery, the Writing Center, and the bookstore, all exist as separate buildings, integrating the art collection even further into the neighborhood.</p>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="footer text-center">
     <div class="container">
-      <ul class="list-inline mb-5">
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
-            <i class="icon-social-facebook"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
-            <i class="icon-social-twitter"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="#">
-            <i class="icon-social-github"></i>
-          </a>
-        </li>
-      </ul>
+      <div class = "content-section-heading text-center">
+        <p class="lead">Works Cited</p>
+      </div>
+      <ol class="text-left">
+        <li>Rabinow, Rebecca. "About the Menil Collection." The Menil Collection, Menil Collection, 2019, www.menil.org/about. Accessed 23 Sept. 2019. </li>
+        <li>"Menil House & Museum." HoustonPBS, 11 Feb. 2013, www.youtube.com/watch?v=-GrlffHZtd0&feature=youtu.be. Accessed 23 Sept. 2019.</li>
+        <li>Rosenfield, Karissa. "The Menil Collection selected to receive AIA Twenty-five Year Award." ArchDaily, 16 Jan. 2013, www.archdaily.com/319499/the-menil-collection-awarded-aia-twenty-five-year-award?ad_source=search&ad_medium=search_result_all. Accessed 23 Sept. 2019.</li>
+        <li>"Menil Collection." Great Buildings, 2013, www.greatbuildings.com/buildings/Menil_Collection.html. Accessed 23 Sept. 2019.</li>
+        <li>Gianakos, Jules. "AD Classics: Menil Collection / Renzo Piano." ArchDaily, 28 Sept. 2011, www.archdaily.com/171974/ad-classics-menil-collection-renzo-piano. Accessed 23 Sept. 2019.</li>
+        <li>Stott, Rory. "Spotlight: Renzo Piano." ArchDaily, 14 Sept. 2018, www.archdaily.com/273403/happy-birthday-renzo-piano. Accessed 23 Sept. 2019.</li>
+      </ol>
       <p class="text-muted small mb-0">Copyright &copy; Kayleigh Brown 2019</p>
     </div>
   </footer>
